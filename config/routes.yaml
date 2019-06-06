@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+app_projects_of_developer:
+    path: /developer/{id}
+    controller: App\Controller\DeveloperController::getProjects
+app_name_of_developer:
+    path: /name/{id}
+    controller: App\Controller\DeveloperController::getNameDeveloper
